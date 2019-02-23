@@ -14,7 +14,7 @@ router.get('/curuser',isLoggedIn,function (req, res, next) {
 });
 
 router.get("/protected2",isLoggedIn,function(req,res,next){
-  res.json({fuck:'You'})
+  res.json({y:'x'})
 });
 
 module.exports=router;
